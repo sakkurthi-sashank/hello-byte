@@ -70,7 +70,7 @@ export default function MainLayout() {
                 src={'/stream-chat.svg'}
                 width={'auto'}
                 height={18}
-                alt={'Stream Chat Logo'}
+                alt={'Hello Byte Logo'}
               />
               <UnstyledButton>
                 <Group>

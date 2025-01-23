@@ -31,7 +31,7 @@ export const ChatInput = () => {
 
     if (file) {
       const storageRef = ref(storage, `images/${uuidv4()}`)
-      await uploadBytes(storageRef, file as any).then((snapshot) => {
+      await uploadBytes(storageRef, file as any).then(() => {
         console.log('Uploaded a blob or file!')
       })
       const url = await getDownloadURL(storageRef)
